@@ -15,6 +15,8 @@ public class ScheduledTask {
 
     /**
      * Requests weather data once every hour, 15 minutes after a full hour.
+     * Weather data is taken from Estonian Environment Agency.
+     * @see <a href=ilmateenistus.ee>ilmateenistus.ee</a>
      * @throws Exception if the file is not found or DocumentBuilder cannot be created
      */
     @Scheduled(cron = "${cron.expression}")
