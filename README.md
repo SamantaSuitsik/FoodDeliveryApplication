@@ -6,8 +6,8 @@ Run the FoodDeliveryApplication.java file
 The application is available on localhost:8080
 
 One endpoint is at localhost:8080/delivery/fee  
-Possible parameters are:
-city = pärnu, tartu, tallinn
+Possible parameters are:  
+city = pärnu, tartu, tallinn  
 vehicle = bike, car, scooter
 
 # Usage example
